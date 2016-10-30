@@ -13,7 +13,7 @@ Aufgabe 1:
   b)
     1: Die minimale Feldbreite wird auf 5 Zeichen gesetzt.
     2: Limitiert die ausgegebenen Nachkommastellen auf 3 Stellen
-    3: ?
+    3: Gibt die Zahl in Exponentialschreibweise aus
     4: Ja
     5: Ja
     6: 01.00
