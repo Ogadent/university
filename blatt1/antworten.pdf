@@ -20,4 +20,29 @@ Aufgabe 1:
     7: 01.11
 
   c)
-    1: 
+    1: a -x -o
+    2: gcc a.c -o b
+    
+Aufgabe 2:
+  a)
+    Zeile 1: Der Rückgabewert von main fehlt, also in diesem Fall int, außerdem kommen nach dem Methodennamen keine geschweiften, sondern runde Klammern
+    Zeile 2: Hier sollte eine offene geschweifte Klammer stehen
+    Zeile 3: Am Ende der Zeile fehlt ein Semicolon
+    Zeile 4: Hier sollte eine geschlossene geschweifte Klammer stehen
+    
+  b)
+    Zeile 1: Statt dem % Zeichen sollte ein # stehen
+    Zeile 3: Der Rückgabewert von main ist int, nicht double
+    Zeile 5: Das 'Hallo' muss in Anführungszeichen stehen
+    
+  c)
+    Zeile 1: Nach 'main' fehlen die runden Klammern für die Funktionsparameter
+    Zeile 4: Die methode println existiert nicht, für (formatierte) Ausgaben muss printf verwendet werden, außerdem ist die Formatierung für die gewünschte Ausgabe falsch, es sollte %f oder %d verwendet werden
+
+  d)
+    Zeile 1: Der Name der gewünschten Headerdatei muss in spitzen Klammern geschrieben werden, da stdio.h nicht selbstgeschrieben ist
+    Zeile 6: Der erste Parameter von printf muss ein String sein und um den char in der gewünschten Weise auszugeben muss entweder putchar verwendet werden oder die Formatiertung "%c"
+    Zeile 7: Die Variable t existiert nicht, am einfachsten zu lösen wäre das Problem durch das zurückgeben einer literalen Variable, beispielsweise 0, was für "keinen Fehler" steht
+    
+Aufgabe 4:
+  a) double calc_middle_between(double d1, double d2)
