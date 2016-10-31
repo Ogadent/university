@@ -2,6 +2,6 @@
 
 int main()
 {
-	printf("%c", getchar()+1);
+	printf("%c", getchar() + 1);
 	return 0;
 }
