@@ -42,7 +42,7 @@ Aufgabe 2:
   d)
     Zeile 1: Der Name der gewünschten Headerdatei muss in spitzen Klammern geschrieben werden, da stdio.h nicht selbstgeschrieben ist
     Zeile 6: Der erste Parameter von printf muss ein String sein und um den char in der gewünschten Weise auszugeben muss entweder putchar verwendet werden oder die Formatiertung "%c"
-    Zeile 7: Die Variable t existiert nicht, am einfachsten zu lösen wäre das Problem durch das zurückgeben einer literalen Variable, beispielsweise 0, was für "keinen Fehler" steht
+    Zeile 7: Die Variable r existiert nicht, am einfachsten zu lösen wäre das Problem durch das zurückgeben einer literalen Variable, beispielsweise 0, was für "keinen Fehler" steht
     Zeile 8: Hier sollte eine geschlossene geschweifte Klammer stehen
     
 Aufgabe 4:
