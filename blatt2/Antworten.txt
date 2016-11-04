@@ -38,4 +38,17 @@ Aufgabe 7:
 
     d)
         SZ 100: Speichere in SZ 1001 den Wert 0
-        SZ 101: Falls der 
+        SZ 101: Falls der Inhalt in SZ 1000 gleich 0 ist, gehe zu SZ 105
+        SZ 102: Addiere zum Inhalt von SZ 1001 den Inhalt von 1000
+        SZ 103: Vermindere den Inhalt von SZ 1000 um 1
+        SZ 104: Gehe zu SZ 101
+        SZ 105: Gib den Inhalt von SZ 1001 aus
+
+Aufgabe 8:
+    a)
+        12, Das Programm stellt die Multiplikation durch fortlaufende Addition dar
+        
+    b)
+        SZ 1001: Vermindere den Inhalt von 1006 um 1
+        SZ 1002: Vermindere den Inhalt von 1007 um 1
+        SZ 1003: Falls der Inhalt von 1007 gleich 0 ist, gehe zu SZ 1001
