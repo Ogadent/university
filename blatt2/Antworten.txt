@@ -1,0 +1,41 @@
+Aufgabe 5:
+    a)
+        1. Nein, weil der '+' Operator nur mit 2 Argumenten funktioniert
+        2. Nein, weil der '+' Operator nur mit 2 Argumenten funktioniert
+        3. Ja
+        4. Nein, weil die geschlossene Klammer fehlt
+        5. Nein, weil ein Operator fehlt
+        6. Ja
+        7. Ja
+        8. Ja
+        9. 2
+        10. 2.5
+        11. 22
+        12. 22
+        13. 5
+        14. 6
+        15. 5
+        16. 2
+        17. 3
+        18. 4
+        19. 1
+        20. 3
+     
+Aufgabe 7:
+    a)
+        1.          2.          3.          4.
+        21 > 6?     15 > 6?     9 > 6?      3 > 6?
+        x = 14      x = 8       x = 2       
+                                            2
+        
+        Den Rest der Division von x durch y, also x % y
+        
+    c)
+        Eingabe: x,y e N
+        solange x + 1 > y tue
+            x <- x - y
+        Ausgabe: x
+
+    d)
+        SZ 100: Speichere in SZ 1001 den Wert 0
+        SZ 101: Falls der 
