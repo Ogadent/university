@@ -4,4 +4,5 @@
 int main()
 {
         printf("%i", isnum(getchar()));
+        return 0;
 }
