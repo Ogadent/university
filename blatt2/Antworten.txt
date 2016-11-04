@@ -51,4 +51,6 @@ Aufgabe 8:
     b)
         SZ 1001: Vermindere den Inhalt von 1006 um 1
         SZ 1002: Vermindere den Inhalt von 1007 um 1
-        SZ 1003: Falls der Inhalt von 1007 gleich 0 ist, gehe zu SZ 1001
+        SZ 1003: Falls der Inhalt von 1007 gleich 0 ist, gehe zu SZ 1005
+        SZ 1004: Gehe zu SZ 1001
+        SZ 1005: Gib den Inhalt von SZ 1006 aus
