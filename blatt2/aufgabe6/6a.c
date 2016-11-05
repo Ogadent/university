@@ -3,6 +3,8 @@
 
 int main()
 {
-        printf("%i", isnum(getchar()));
+        char c;
+        scanf("%c", &c);
+        printf("%i", isnum(c));
         return 0;
 }
