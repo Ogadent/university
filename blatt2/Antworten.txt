@@ -54,3 +54,15 @@ Aufgabe 8:
         SZ 1003: Falls der Inhalt von 1007 gleich 0 ist, gehe zu SZ 1005
         SZ 1004: Gehe zu SZ 1001
         SZ 1005: Gib den Inhalt von SZ 1006 aus
+
+    e)
+        Inhalt von PC: 500
+        Inhalt von SZ 500: Addiere den Inhalt von SZ 100 zum Inhalt der SZ 104
+        
+        1. Fetch: Hole den Inhalt von SZ 500 über RM nach IR
+        2. Decode: Erkenne, dass es sich um die Addition des Inhalts von zwei Speicherzellen handelt
+        3. Execute
+            (E) Lade Inhalt von SZ 100 und von SZ 104 über RM nach AR
+            (V) Führe Addition aus
+            (A) Schreibe Ergebnis von AR über WM nach SZ 104
+            Setze Befehlzähler PC auf den nachsten Addresswert
