@@ -3,6 +3,8 @@
 
 int main()
 {
-        putchar(toupper(getchar()));
+        char c;
+        scanf("%c", &c);
+        putchar(toupper(c));
         return 0;
 }
