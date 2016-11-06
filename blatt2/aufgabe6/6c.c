@@ -5,6 +5,6 @@ int main()
 {
         double d;
         scanf("%lf", &d);
-        printf("%g", ceil(d));
+        printf("%g", floor(d));
         return 0;
 }
