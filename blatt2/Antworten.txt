@@ -55,6 +55,24 @@ Aufgabe 8:
         SZ 1004: Gehe zu SZ 1001
         SZ 1005: Gib den Inhalt von SZ 1006 aus
 
+    c)
+        Steuerwerk 'schreibt' 100 nach AM
+        Steuerwerk 'schreibt' 1 nach WM
+        Steuerwerk setzt D auf schreiben (1)
+        Steuerwerk sendet A
+        Speicherwerk 'liest' Adresse von AM (100)
+        Speicherwerk 'liest' Daten von WM (1)
+        Speicherwerk überschreibt Inhalt von SZ 100 mit 1
+        Speicherwerk sendet T
+        
+    d)
+        Steuerwerk 'schreibt' 200 nach AM
+        Steuerwerk setzt D auf auf lesen (0)
+        Steuerwerk sendet A
+        Speicherwerk 'liest' Adresse von AM (200)
+        Speicherwerk 'schreibt' den Inhalt von SZ 200 auf RM
+        Speicherwerk sendet T
+
     e)
         Inhalt von PC: 500
         Inhalt von SZ 500: Addiere den Inhalt von SZ 100 zum Inhalt der SZ 104
