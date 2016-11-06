@@ -5,6 +5,6 @@ int main()
 {
         char c;
         scanf("%c", &c);
-        printf("%i", isnum(c));
+        printf("%i", isdigit(c));
         return 0;
 }
