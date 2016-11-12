@@ -23,7 +23,7 @@ Aufgabe 9
         12. T
         13. T
         14. F
-        15. F
+        15. T
         
 Aufgabe 10
 
