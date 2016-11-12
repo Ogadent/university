@@ -11,4 +11,5 @@ int main()
         scanf("%lf", &x);
         x = my_fabs(x);
         printf("%f", x);
+        return 0;
 }
