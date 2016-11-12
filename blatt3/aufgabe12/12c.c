@@ -10,4 +10,5 @@ int main()
         }else{
                 printf("Die EIngabe war erfoglreich.");
         }
+        return 0;
 }
