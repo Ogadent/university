@@ -2,12 +2,12 @@
 
 int main()
 {
-        int x, y, result;
-        result = scanf("%i.%i", &x, &y);
+        int x, result;
+        result = scanf("%i.%i", &x, &x);
         if(result != 2 || getchar() != '\n'){
-                printf("Die EIngabe war nicht erfoglreich.");
+                printf("Die Eingabe war nicht erfoglreich.");
         }else{
-                printf("Die EIngabe war erfoglreich.");
+                printf("Die Eingabe war erfoglreich.");
         }
         return 0;
 }
