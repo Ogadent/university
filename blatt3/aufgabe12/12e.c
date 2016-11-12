@@ -2,7 +2,8 @@
 
 int main()
 {
-        int x, c, result;
+        int x, result;
+        char c;
         result = scanf("%i%c", &x, &c);
         if((result != 2 || getchar() != '\n') && (x > 0 && c > 96 && c < 123)){
                 printf("Die Eingabe war nicht erfoglreich.");
