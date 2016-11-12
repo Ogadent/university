@@ -35,7 +35,7 @@ Aufgabe 10
     b)
         A   A || (!A)
         T   T
-        F   F
+        F   T
         
         Eine Tautologie ist eine Aussage, die immer wahr ist.
     c)
@@ -43,7 +43,7 @@ Aufgabe 10
         T   F
         F   F
         
-        Eine nicht erfüllbare Bedingung ist, eine Aussage, die immer falsch ist, A kann nicht gleichzeitig nicht A und A sein
+        Eine nicht erfüllbare Bedingung ist, eine Aussage, die immer falsch ist, A kann nicht gleichzeitig nicht A und A sein.
     d)
         A   B   !(A && B)   (!A) || (!B)
         T   T   F           F
@@ -51,6 +51,7 @@ Aufgabe 10
         F   T   T           T
         F   F   T           T
         
+        Äquivalent sind zwei Ausdrücke, wenn sie bei einer Wahrheitstafel immer die selben Werte ergeben.
     e)
         A   B   C   A || (B || C)   (A || B) || C
         T   T   T   T               T
