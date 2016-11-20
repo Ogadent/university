@@ -52,7 +52,7 @@ Aufgabe 15:
     
   c)
     1 ∈ M und 1 = 2^0
-    Angenommen: x ∈ M und x = 2^n => 2 * x = 2 * 2^n = 2^(n+1)
+    Angenommen: x ∈ M und x = 2^n => 2 * x = 2 * 2^n = 2^(n+1) => Aussage bewiesen
   d)
     Eine natürliche Zahl ist ein Ausdruck und diese enthält 0 rechte und 0 linke Klammern
     Angenommen: Sind a und b Ausdrücke die gleich viele rechte wie linke Klammern haben, dann haben auch (a), a + b und a - b genauso viele linke wie rechte Klammern.
