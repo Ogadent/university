@@ -1,0 +1,58 @@
+Aufgabe 13:
+  a)
+    1. 5
+    2. 6
+    3. 0
+    4. 2
+    5. 0
+    6. 0
+    7. 3
+    8. 2
+    9. 1
+    10. 0
+    11. 3
+    
+  b)
+    1. int
+    2. int
+    3. double
+    4. int
+    5. int
+    6. char
+    7. int
+    8. int
+    9. int
+    10. double
+    
+Aufgabe 14:  
+  a)
+    Abbildungsschreibweise: ?(x > y, x, y)
+    
+  b)
+    Abbildungsschreibweise: =(r, % (a, b))
+    Infixnotation: r = a % b
+    
+  c)
+    Infixnotation: "%i" printf 8 ggT 12
+    
+  d)
+    Abbildungsschreibweise: = (status, scanf("%i%i", &x, &y))
+    Infixnotation: status = scanf("%i%i", &x, &y)
+  
+  e)
+    Abbildungsschreibweise: || (!= (status, 2), != (getchar(), '\n'))
+    
+Aufgabe 15:
+  a)
+    3 >= 3
+    Angenommen: x ∈ M und x >= 3 => x + 3 >= 6 >= 3 => Aussage bewiesen
+    
+  b)
+    3 ∈ M => 6 ∈ M => 9 ∈ M => 12 ∈ M, 12 > 10 => Aussage widerlegt
+    
+  c)
+    1 ∈ M und 1 = 2^0
+    Angenommen: x ∈ M und x = 2^n => 2 * x = 2 * 2^n = 2^(n+1)
+  d)
+    Eine natürliche Zahl ist ein Ausdruck und diese enthält 0 rechte und 0 linke Klammern
+    Angenommen: Sind a und b Ausdrücke die gleich viele rechte wie linke Klammern haben, dann haben auch (a), a + b und a - b genauso viele linke wie rechte Klammern.
