@@ -11,7 +11,7 @@ int main()
 	int result;
 	char name[21];
 	result = read_name(name);
-	result != 0 ? printf("Eingabe gueltig: %s", name) : printf("Eingabe ungueltig");
+	result != 0 ? printf("Eingabe gueltig") : printf("Eingabe ungueltig");
 	return 0;
 }
 
@@ -26,7 +26,8 @@ int read_name(char input[])
 		if (!isalpha(temp) || amount++ > MAX_CHARS) {
 			return 0;
 		}
-	}while ((temp = getchar()) != '\n');
+	} while ((temp = getchar()) != '\n');
 	input[amount - 1] = '\0';
-	return amount >= MIN_CHARS;
+	return input[1] ? amount >= MIN_CHARS : 0;
 }
+
