@@ -1,5 +1,7 @@
 17 a)
-	Es startet mit einem Menu welches auf eine Benutzereingabe reagiert. Fals die eingabe korrekt ist, gibt das Programm 		entweder den Aktuellen Kontostand oder auch den Zinssatz aus, oder beendet sich. Ist die Nutzer eingabe Falsch, fordert 	das Programm den Nutzer zu einer erneuten Eingabe auf.
+	Es startet mit einem Menu welches auf eine Benutzereingabe reagiert. Fals die eingabe korrekt ist, gibt das Programm 
+	entweder den Aktuellen Kontostand oder auch den Zinssatz aus, oder beendet sich. Ist die Nutzer eingabe Falsch, fordert
+	das Programm den Nutzer zu einer erneuten Eingabe auf.
 
 
 20 b)
