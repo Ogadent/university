@@ -1,4 +1,4 @@
-int aufsteigend_sortiert(int w[], int s)
+int anzahlerfolgreicherdurchläufe(int w[], int s)
 {
 	int li = 0, re = s + 1, m;
 	while (li < re - 1) {
