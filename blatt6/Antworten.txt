@@ -1,0 +1,29 @@
+Aufgabe 21:
+  a)
+    1. #define TRUE 1
+    2. #define MIN(x, y) (x > y ? y : x)
+    3. #define CLEAR_BUFFER() (while (getchar() != '\n'))
+    4. #define TO_LOWER(c) (c >= 'A' && c <= 'Z' ? c + 'a' - 'A' : c)
+
+  b)
+    
+  c)
+    1. static int x = 1;
+    2. int v[10];
+    3. char s[11];
+    4. v[2] = 10;
+    5. strcmp(s, "10") == 0
+    6. strlen(s) > 5
+    7. strcpy(s, "");
+    8. strncat(s, t, 5);
+    9. 1
+    10. 2
+    
+  d)
+    1. 1
+    2. 0
+    3. 1
+    4. 0
+    5. 1
+    6. 1
+    7. 2
