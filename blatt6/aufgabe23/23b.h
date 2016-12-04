@@ -6,4 +6,4 @@ extern void delete(char[], int);
 extern void count(char[], int[]);
 extern void reverse(char[], char[]);
 
-#endif AUFGABE23_H
+#endif
