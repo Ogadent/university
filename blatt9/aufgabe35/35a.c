@@ -20,7 +20,7 @@ int main()
 }
 
 int read_ldouble(long double *p) {
-    double x;
+    long double x;
     if (scanf("%Lf", &x) != 1 || getchar() != '\n' || getchar() == EOF) {
         if (flush_buff() == 1) return 1;
         return EOF;
