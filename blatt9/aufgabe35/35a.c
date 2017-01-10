@@ -19,9 +19,9 @@ int main()
     }
 }
 
-int read_ldouble(double *p) {
+int read_ldouble(long double *p) {
     double x;
-    if (scanf("%lf", &x) != 1 || getchar() != '\n' || getchar() == EOF) {
+    if (scanf("%Lf", &x) != 1 || getchar() != '\n' || getchar() == EOF) {
         if (flush_buff() == 1) return 1;
         return EOF;
     }
