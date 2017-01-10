@@ -19,5 +19,5 @@
 18. 1
 19. Auf Zeile 6 wird der Zeiger initialisiert und auf die Adresse 97 gesetzt, ihm wird nicht der Wert 97 zugewiesen
 20. Auf Zeile 6 wird ein Zeiger deklariert, aber nicht initialisiert
-21. Auf Zeile 6 wird der Zeiger initialisiert ihm wird der Wert des ersten Elements von v zugewiesen, nicht die Adresse
-22. Das Feld w ist nur 3 bytes groß, kann also keinen string der länge 3 (mit binärer null 4) aufnehmen und produziert einen scheinbar unendlich langen string
+21. Auf Zeile 6 wird der Zeiger initialisiert ihm wird der Wert des ersten Elements von v zugewiesen, dieses ist jedoch noch nicht initialisiert
+22. Die Referenz w kann nicht überschrieben werden (Zeile 7)
