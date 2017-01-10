@@ -11,9 +11,9 @@ int main()
     p = &x;
     switch (read_ldouble(p)) {
         case 1: printf("Ungültige Eingabe");
-        return 0;
+        return 1;
         case EOF: printf("Lesefehler");
-        return 0;
+        return EOF;
         default: printf("Eingabe erfolgreich");
         return 0;
     }
