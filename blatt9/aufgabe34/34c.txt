@@ -1,0 +1,12 @@
+a)
+Der Algorithmus gibt aus ob n eine gerade (Rückgabewert 1) oder eine ungerade Zahl (Rückgabewert 0) ist.
+
+b)
+Algorithmus: A
+Eingabe: n ∈ N
+solange n > 1
+    n := n - 2
+wenn n = 0 dann
+    Ausgabe: 1
+sonst
+    Ausgabe: 0
