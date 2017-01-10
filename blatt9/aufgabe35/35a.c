@@ -19,7 +19,8 @@ int main()
     }
 }
 
-int read_ldouble(long double *p) {
+int read_ldouble(long double *p)
+{
     long double x;
     if (scanf("%Lf", &x) != 1 || getchar() != '\n' || getchar() == EOF) {
         if (flush_buff() == 1) return 1;
@@ -29,7 +30,8 @@ int read_ldouble(long double *p) {
     return 0;
 }
 
-int flush_buff(){
+int flush_buff()
+{
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
     return c != EOF;
