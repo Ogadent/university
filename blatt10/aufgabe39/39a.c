@@ -12,5 +12,5 @@ int safecpy(char **t, char *s)
         *t = calloc(size2, sizeof(*s));
         if (*t)
                 strcpy(*t, s);
-        return *t;
+        return *t == NULL ? *t : 1;
 }
