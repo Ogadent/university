@@ -1,0 +1,7 @@
+Aufgabe 38:
+    g)
+        Die Funktion kopiert n Elemente von y zu x.
+    
+    h)
+        Die Funktion gibt den string x auf der Konsole aus.
+        
