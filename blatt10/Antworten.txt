@@ -1,4 +1,10 @@
 Aufgabe 38:
+    e)
+        Falls der zweite malloc Befehl fehlschlägt wird der erste reservierte Speicher nicht bereinigt.
+        
+    f)
+        Falls eine der malloc Befehle in der ersten for Schleife fehlschlägt, werden die restlichen, bereits reservierten Speicherplätze nicht bereinigt.
+
     g)
         Die Funktion kopiert n Elemente von y zu x.
     
